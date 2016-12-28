@@ -23,6 +23,11 @@
     line-height: 22px;
     padding: 20px 30px;
     ul{margin: 0;}
+    #button {
+      background: $skinPanelHeaderBck;
+      margin: 25px -15px -15px;
+      padding: 10px 15px;
+    }
   }
 }
 
