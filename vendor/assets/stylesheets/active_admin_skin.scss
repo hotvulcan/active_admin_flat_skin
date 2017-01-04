@@ -421,7 +421,8 @@ html {
   @each $width in $width-list {
     .block-#{$width} {
       float: none;
-      width: #{$width}% !important;
+      //width: #{$width}% !important;
+      width: unquote("#{$width}% !important");
       display: block;
       margin: 0 auto;
       overflow: hidden;
